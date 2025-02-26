@@ -1,0 +1,2 @@
+# SerikSAT
+Open Source CubeSAT
