@@ -142,7 +142,7 @@
         </div>
         <center>
             <h2 class="section-title">Genel Sistem Diagramı</h2>
-        <img src="Sysdiagram v3.png" style="width: 50%;" alt="">
+        <img src="Sysdiagram v5.png" style="width: 50%;" alt="">
         </center>
     </section>
     <br>
@@ -189,6 +189,77 @@
             <h2 class="section-title">Genel Diagram ve Topoloji</h2>
         <img src="Ground Topology v3.png" style="width: 50%;" alt="">
         </center>
+    </section>
+    <br>
+    <section id="groundstation" class="py-5 bg-dark">
+        <div class="container">
+            <h2 class="section-title">Kullanılacak Yazılımlar ve Protokoller</h2>
+            <ul>
+                <li><strong>Simülasyon Yazılımları</strong></li>
+                <ul>
+                  <li><strong>Isı Analizi (Termal):</strong> Ansys Icepak / Fluent veya Thermal Desktop</li>
+                  <ul>
+                    <li><a href="https://www.ansys.com/products/electronics/ansys-icepak" class="text-info" target="_blank">Ansys Icepak Resmi Sitesi</a></li>
+                    <li><a href="https://www.ansys.com/products/fluids/ansys-fluent" class="text-info" target="_blank">Ansys Fluent Resmi Sitesi</a></li>
+                  </ul>
+              
+                  <li><strong>G Kuvveti (Fırlatma Şoku):</strong> Ansys Mechanical veya Siemens NX Nastran</li>
+                  <ul>
+                    <li><a href="https://www.ansys.com/products/structures/ansys-mechanical" class="text-info" target="_blank">Ansys Mechanical Resmi Sitesi</a></li>
+                    <li><a href="https://plm.sw.siemens.com/en-US/simcenter/mechanical-simulation/nastran/" class="text-info" target="_blank">Siemens NX Nastran Resmi Sitesi</a></li>
+                  </ul>
+              
+                  <li><strong>Titreşim (Modal, Harmonik):</strong> Ansys Mechanical veya Altair HyperWorks</li>
+                  <ul>
+                    <li><a href="https://www.ansys.com/products/structures/ansys-mechanical" class="text-info" target="_blank">Ansys Mechanical Resmi Sitesi</a></li>
+                    <li><a href="https://altair.com/hyperworks" class="text-info" target="_blank">Altair HyperWorks Resmi Sitesi</a></li>
+                  </ul>
+                </ul>
+              
+                <li><strong>Uçuş Yazılımı (Flight Software)</strong></li>
+                <ul>
+                  <li><strong>RTEMS (Real-Time Executive for Multiprocessor Systems):</strong></li>
+                  <ul>
+                    <li><strong>Açıklama:</strong> Gerçek zamanlı işletim sistemi, özellikle gömülü sistemler için tasarlanmıştır.</li>
+                    <li><a href="https://www.rtems.org/" class="text-info" target="_blank">RTEMS Resmi Sitesi</a></li>
+                  </ul>
+                  <li><strong>CubeSat Space Protocol (CSP):</strong></li>
+                  <ul>
+                    <li><strong>Açıklama:</strong> Küçük uydular için hafif ve verimli bir ağ protokolü.</li>
+                    <li><a href="https://github.com/libcsp/libcsp" class="text-info" target="_blank">CSP GitHub Deposu</a></li>
+                  </ul>
+                </ul>
+              
+                <li><strong>Yer İstasyonu Yazılımı</strong></li>
+                <ul>
+                  <li><strong>GNU Radio:</strong></li>
+                  <ul>
+                    <li><strong>Açıklama:</strong> SDR (Yazılım Tanımlı Radyo) uygulamaları geliştirmek için kullanılan açık kaynaklı bir yazılım araç takımı.</li>
+                    <li><a href="https://www.gnuradio.org/" class="text-info" target="_blank">GNU Radio Resmi Sitesi</a></li>
+                  </ul>
+                  <li><strong>gr-satellites:</strong></li>
+                  <ul>
+                    <li><strong>Açıklama:</strong> Amatör uyduların telemetri verilerini almak ve işlemek için GNU Radio modülü.</li>
+                    <li><a href="https://github.com/daniestevez/gr-satellites" class="text-info" target="_blank">gr-satellites GitHub Deposu</a></li>
+                  </ul>
+                  <li><strong>COSMOS Ground Control Software:</strong></li>
+                  <ul>
+                    <li><strong>Açıklama:</strong> Uyduların telemetri verilerini izlemek ve komut göndermek için kullanılan yer kontrol yazılımı.</li>
+                    <li><a href="https://cosmosrb.com/" class="text-info" target="_blank">COSMOS Resmi Sitesi</a></li>
+                  </ul>
+                </ul>
+              
+                <li><strong>Haberleşme Protokolleri</strong></li>
+                <ul>
+                  <li><strong>AX.25 Protokolü:</strong></li>
+                  <ul>
+                    <li><strong>Açıklama:</strong> Amatör radyo paket iletişimi için kullanılan bir protokol.</li>
+                    <li><a href="http://www.ax25.net/" class="text-info" target="_blank">AX.25 Protokolü Bilgileri</a></li>
+                  </ul>
+                </ul>
+              </ul>                     
+        </div>
+        
     </section>
     <br>
     <!-- Contact Section -->
